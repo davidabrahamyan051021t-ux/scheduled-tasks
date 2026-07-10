@@ -32,4 +32,4 @@ for index, row in file.iterrows():
                         to_addrs=row["email"],
                         msg=f"Subject:Happy Birthday\n\n{final_letter}"
                 )
-        )
+        
